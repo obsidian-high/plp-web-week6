@@ -1,113 +1,93 @@
-# SpendWise Interactive Budget Dashboard
+# SpendWise – Interactive Budget Dashboard
 
-## Week 6 JavaScript Assignment
+## Project Description
 
-SpendWise is an interactive personal budgeting application designed to help users record expenses, monitor their monthly spending, and understand how much money remains from their monthly budget.
+SpendWise is a browser-based personal budgeting application designed to help users manage and monitor their expenses.
 
-This week's version improves the previous SpendWise project by introducing JavaScript decision making, arrays, loops, DOM manipulation, and event-driven user interactions.
+The application allows users to add, view, and delete expense records while automatically calculating total expenses and remaining budget.
 
-The purpose of this project is to demonstrate how JavaScript can transform a static webpage into an interactive application that responds to user actions and updates its content dynamically.
+The dashboard uses JavaScript to process expense data, make budgeting decisions, handle user interactions, and dynamically update the webpage.
 
----
+This project was developed as part of the Software Development course and is deployed online using GitHub and Netlify.
 
-# Table of Contents
+## Technologies Used
 
-1. Project Overview
-2. Improvements Made This Week
-3. Project Structure
-4. How SpendWise Works
-5. Conditional Statements
-6. Arrays and Expense Records
-7. Loops and Data Processing
-8. DOM Manipulation
-9. Event Listeners
-10. Connecting Everything Together
-11. Budget Calculation
-12. Input Validation
-13. Adding Expenses
-14. Deleting Expenses
-15. Clearing Expenses
-16. Challenges and Solutions
-17. Testing
-18. How to Run the Project
-19. Technologies Used
-20. Requirements Checklist
-21. Future Improvements
-22. Conclusion
+- **HTML5:** Provides the structure of the application.
+- **CSS3:** Handles styling, layouts, responsive design, and dark mode.
+- **JavaScript:** Implements budgeting calculations, arrays, loops, conditionals, DOM manipulation, and event listeners.
+- **Git:** Tracks changes to the project.
+- **GitHub:** Hosts the project's source code.
+- **Netlify:** Hosts the live website and provides automatic deployment.
 
----
+## GitHub Repository Information
 
-# 1. Project Overview
+**Repository Name:** SpendWise
 
-SpendWise is a browser-based budgeting dashboard.
+**Repository URL:** [INSERT YOUR PUBLIC GITHUB REPOSITORY URL]
 
-The application allows users to:
+The repository contains:
 
-- View their monthly budget.
-- Add expense records.
-- Select an expense category.
-- View total expenses.
-- View the remaining budget.
-- See the number of expense records.
-- See whether they are under budget or over budget.
-- See the percentage of their budget that has been used.
-- Delete individual expenses.
-- Clear all expenses.
-- Receive feedback when invalid information is entered.
+- `index.html`
+- `style.css`
+- `script.js`
+- `README.md`
 
-The project uses HTML for structure, CSS for presentation, and JavaScript for application behaviour.
+## Live Netlify Website
 
----
+**Live Website URL:** [INSERT YOUR ACTUAL NETLIFY URL]
 
-# 2. Improvements Made This Week
+The application is publicly accessible through Netlify.
 
-The previous version of SpendWise provided the basic dashboard and JavaScript foundation.
+## Deployment Process Summary
 
-This week's version introduces several important improvements.
+The project was deployed using GitHub and Netlify.
 
-## Decision making
+The deployment process involved:
 
-Conditional statements are now used to determine whether the user:
+1. Reviewing the project structure and confirming that all required files were present.
+2. Creating a public GitHub repository.
+3. Uploading the SpendWise project files.
+4. Creating a Netlify account.
+5. Connecting Netlify to the GitHub account.
+6. Selecting the SpendWise repository.
+7. Configuring the deployment settings.
+8. Deploying the website.
+9. Changing the default Netlify site name to a meaningful SpendWise-related name.
+10. Testing the live website to confirm that its HTML, CSS, and JavaScript loaded correctly.
 
-- Has money remaining.
-- Has used the entire budget.
-- Has exceeded the budget.
+### Continuous Deployment
 
-## Arrays
+Netlify was connected directly to the GitHub repository.
 
-Expenses are now stored in an array instead of relying on separate variables for each expense.
+This enables continuous deployment. When changes are pushed to the connected GitHub branch, Netlify automatically starts a new deployment.
 
-## Loops
+A visible update was made to the project and pushed to GitHub to test this process.
 
-Loops are used to process every expense in the array.
+The updated version was then checked on the live website.
 
-## DOM manipulation
+## Challenges Encountered During Deployment
 
-JavaScript now updates the webpage directly.
+The following are potential deployment issues and their solutions. Update this section to reflect the challenges actually encountered during your deployment.
 
-The application no longer depends only on browser console output.
+- **File organization:** Ensured that `index.html`, `style.css`, and `script.js` were correctly placed in the repository's root directory.
+- **File linking:** Checked that the HTML file referenced the correct CSS and JavaScript filenames.
+- **Deployment configuration:** Used the correct publishing directory and left the build command empty because the project does not require a build process.
+- **Automatic deployment:** Confirmed that Netlify was connected to the correct GitHub repository and deployment branch.
 
-## Event handling
+## Lessons Learned
 
-Event listeners allow the user to:
+This project provided practical experience with:
 
-- Add expenses.
-- Delete expenses.
-- Clear all expenses.
+- Preparing a frontend project for deployment.
+- Using Git and GitHub to manage source code.
+- Hosting a website using Netlify.
+- Connecting GitHub repositories to deployment platforms.
+- Understanding continuous deployment.
+- Testing a live website after deployment.
+- Identifying and resolving deployment configuration problems.
 
-## Dynamic dashboard
+An important lesson was that developing a website is only one part of the development process. Publishing, testing, maintaining, and updating the application are also essential parts of delivering a working software product.
 
-The total expenses, remaining balance, record count, budget status, percentage used, and expense list update automatically whenever the data changes.
+## Conclusion
 
----
-
-# 3. Project Structure
-
-```text
-spendwise-week-6/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+SpendWise demonstrates how HTML, CSS, and JavaScript can be combined to create an interactive budgeting application and how a
